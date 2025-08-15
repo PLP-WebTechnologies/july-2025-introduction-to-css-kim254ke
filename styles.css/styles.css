@@ -1,0 +1,104 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 20px auto; /* Margin outside container */
+}
+
+/* Box styles for Hello and Goodbye sections */
+.box-1, .box-2 {
+    background: #ffffff;
+    border: 1px solid #4a90e2; /* Border in box model */
+    padding: 20px;             /* Padding inside border */
+    margin-bottom: 20px;       /* Margin outside border */
+    border-radius: 8px;
+}
+
+.box-1 h1 {
+    color: #4a90e2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box-2 h1 {
+    color: #d94f4f;
+    font-style: italic;
+}
+
+/* Categories list styling */
+.categories {
+    background: #fff5e6;
+    border: 3px dashed #ffa500;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.categories h2 {
+    margin-top: 0;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories li {
+    margin: 8px 0;
+}
+
+.categories a {
+    text-decoration: none;
+    color: #4a90e2;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
+
+/* Form styling */
+form {
+    background: #e6f7ff;
+    padding: 20px;
+    border: 3px solid #0099cc;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between fields */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;              /* Padding inside inputs */
+    border: 1px solid #999;
+    border-radius: 4px;
+    box-sizing: border-box;    /* Keep padding inside width */
+}
+
+button {
+    background: #4a90e2;
+    color: white;
+    padding: 10px 15px;        /* Padding inside button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #357abd;
+}
